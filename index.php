@@ -10,5 +10,6 @@
     <p>I'll try to up some content here :)</p>
 	<p><a href="phpinfo.php">phpinfo</a></p>
 	<p><a href="mysql.php">mysql</a></p>
+	<p><a href="phpmyadmin/">phpmyadmin/</a></p>
   </body>
 </html>
