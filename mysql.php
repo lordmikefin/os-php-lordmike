@@ -13,7 +13,9 @@
 	  <?php
 	    $testStr = "koe";
 		echo $testStr;
-	    #echo $OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT;
+	    echo $OPENSHIFT_MYSQL_DB_HOST;
+		echo "..";
+		echo $OPENSHIFT_MYSQL_DB_PORT;
       ?>
     </p>
 <!--	<?php
