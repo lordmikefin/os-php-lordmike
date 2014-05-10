@@ -11,7 +11,9 @@
 	<p>
 	  mysql host: 
 	  <?php
-	    echo $OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT
+	    $testStr = "koe";
+		echo $testStr;
+	    #echo $OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT;
       ?>
     </p>
 <!--	<?php
