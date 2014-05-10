@@ -13,11 +13,11 @@
 	  <?php
 	    $testStr = "koe";
 		echo $testStr . ": ";
-	    #echo $OPENSHIFT_MYSQL_DB_HOST . " ";
-		echo OPENSHIFT_MYSQL_DB_HOST . " ";
+	    echo $OPENSHIFT_MYSQL_DB_HOST . " ";
+		#echo OPENSHIFT_MYSQL_DB_HOST . " ";
 		echo ".. ";
-		#echo $OPENSHIFT_MYSQL_DB_PORT;
-		echo OPENSHIFT_MYSQL_DB_PORT;
+		echo $OPENSHIFT_MYSQL_DB_PORT;
+		#echo OPENSHIFT_MYSQL_DB_PORT;
       ?>
     </p>
 	<p>
@@ -32,12 +32,13 @@
           echo "Failed to connect to MySQL: " . mysqli_connect_error();
         }
         
-        $result = mysqli_query($con,"SHOW TABLES");
+		$sql = "SELECT * FROM `test` LIMIT 0 , 30";
+		
+        $result = mysqli_query($con, $sql);
         
-		echo $row[0];
         while($row = mysqli_fetch_array($result)) {
-#          echo $row['FirstName'] . " " . $row['LastName'];
-          echo $row;
+          echo $row['name'];
+          #echo $row;
           echo "<br>";
         }
 		
