@@ -13,13 +13,17 @@
 	  <?php
 	    $testStr = "koe";
 		echo $testStr . ": ";
-	    echo $OPENSHIFT_MYSQL_DB_HOST . " ";
+	    #echo $OPENSHIFT_MYSQL_DB_HOST . " ";
+		echo OPENSHIFT_MYSQL_DB_HOST . " ";
 		echo ".. ";
-		echo $OPENSHIFT_MYSQL_DB_PORT;
+		#echo $OPENSHIFT_MYSQL_DB_PORT;
+		echo OPENSHIFT_MYSQL_DB_PORT;
       ?>
     </p>
 	<p>
       <?php
+	    // Connection URL: mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/
+		
 	    // connection object
         $con = mysqli_connect("localhost","adminSD1fY4U","uCr7zCtKkzpy","php");
 	    
@@ -30,13 +34,18 @@
         
         $result = mysqli_query($con,"SHOW TABLES");
         
+		echo $row[0];
         while($row = mysqli_fetch_array($result)) {
 #          echo $row['FirstName'] . " " . $row['LastName'];
           echo $row;
           echo "<br>";
         }
+		
+		// Free result set
+        mysqli_free_result($result);
         
         mysqli_close($con);
 	  ?>
+	</p>
   </body>
 </html>
