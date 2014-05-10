@@ -12,15 +12,16 @@
 	  mysql host: 
 	  <?php
 	    $testStr = "koe";
-		echo $testStr;
-	    echo $OPENSHIFT_MYSQL_DB_HOST;
-		echo "..";
+		echo $testStr . ": ";
+	    echo $OPENSHIFT_MYSQL_DB_HOST . " ";
+		echo ".. ";
 		echo $OPENSHIFT_MYSQL_DB_PORT;
       ?>
     </p>
-<!--	<?php
+	<p>
+	<?php
 	  // connection object
-      $con = mysqli_connect("$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT","adminSD1fY4U","uCr7zCtKkzpy","php");
+      $con = mysqli_connect("localhost","adminSD1fY4U","uCr7zCtKkzpy","php");
 	  
       // Check connection
       if (mysqli_connect_errno()) {
@@ -36,6 +37,6 @@
       }
       
       mysqli_close($con);
-	?>-->
+	?>
   </body>
 </html>
