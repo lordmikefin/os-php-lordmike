@@ -9,5 +9,6 @@
     <p>Test site of Lord Mike</p>
     <p>I'll try to up some content here :)</p>
 	<a href="phpinfo.php">phpinfo</a>
+	<a href="mysql.php">mysql</a>
   </body>
 </html>
