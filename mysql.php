@@ -32,7 +32,7 @@
 	    // Connection URL: mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/
 		echo "host: " . DB_HOST . " port: " ;
 	    // connection object
-        $con = mysqli_connect("$DB_HOST:$DB_PORT","adminSD1fY4U","uCr7zCtKkzpy","php");
+        $con = mysqli_connect(DB_HOST.":".DB_PORT,"adminSD1fY4U","uCr7zCtKkzpy","php");
 	    
         // Check connection
         if (mysqli_connect_errno()) {
