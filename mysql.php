@@ -17,8 +17,11 @@
 	    define('DB_PASS',getenv('OPENSHIFT_MYSQL_DB_PASSWORD'));
 	    define('DB_NAME',getenv('OPENSHIFT_GEAR_NAME'));
 		
-		echo "host: " . DB_HOST . " port: " . DB_PORT . " user: " . DB_USER . " pass: " . DB_PASS . " name: " . DB_NAME. " ";
-	    #$testStr = "koe";
+		echo DB_HOST . " : " . DB_PORT;
+		
+		#echo "host: " . DB_HOST . " port: " . DB_PORT . " user: " . DB_USER . " pass: " . DB_PASS . " name: " . DB_NAME. " ";
+	    
+		#$testStr = "koe";
 		#echo $testStr . ": ";
 	    #echo $OPENSHIFT_MYSQL_DB_HOST . " ";
 		#echo OPENSHIFT_MYSQL_DB_HOST . " ";
@@ -28,11 +31,15 @@
       ?>
     </p>
 	<p>
+	  Result from mysql database table test:
+	  
+	  
       <?php
-	    // Connection URL: mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/
-		echo "host: " . DB_HOST . " port: " ;
-	    // connection object
-        $con = mysqli_connect(DB_HOST.":".DB_PORT,"adminSD1fY4U","uCr7zCtKkzpy","php");
+	    # Connection URL: mysql://$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT/
+		#echo "host: " . DB_HOST . " port: " ;
+	    
+		// connection object
+        $con = mysqli_connect(DB_HOST.":".DB_PORT, DB_USER, DB_PASS, DB_NAME);
 	    
         // Check connection
         if (mysqli_connect_errno()) {
@@ -54,6 +61,8 @@
         
         mysqli_close($con);
 	  ?>
+	  
+	  .
 	</p>
   </body>
 </html>
