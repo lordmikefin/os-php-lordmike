@@ -6,7 +6,7 @@
     <title>Test site of Lord Mike</title>
   </head>
   <body>
-    <p>Test site of Lord Mike</p>
+    <p>Test site of Lord Mike (a.k.a. Mikko Niemelä)</p>
     <p>I'll try to up some content here :)</p>
 	<p><a href="phpinfo.php">phpinfo</a></p>
 	<p><a href="mysql.php">mysql</a></p>
