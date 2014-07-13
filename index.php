@@ -13,5 +13,6 @@
 	<p><a href="phpinfo.php">phpinfo</a></p>
 	<p><a href="mysql.php">mysql</a></p>
 	<p><a href="phpmyadmin/">phpmyadmin/</a></p>
+	<p><a href="publication.php">Publications</a></p>
   </body>
 </html>
