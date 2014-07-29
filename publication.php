@@ -11,6 +11,7 @@
 	<p><a href="http://dx.doi.org/10.1364/OE.22.002324">Multiwavefront digital holographic television<br>
 	Optics Express, Vol. 22, Issue 3, pp. 2324-2336 (2014)</a></p>
 	<p><a href="http://dx.doi.org/10.1364/AO.53.003233">Partially coherent digital in-line holographic microscopy in characterization of a microscopic target<br>
-	Applied Optics, Vol. 53, Issue 15, pp. 3233-3240 (2014)</a></p>
+	Applied Optics, Vol. 53, Issue 15, pp. 3233-3240 (2014)</a>
+	<a href="https://drive.google.com/file/d/0B3jJ9fTmWod3RFZuRF9qYlB2MFU/edit?usp=sharing">PDF</a></p>
   </body>
 </html>
