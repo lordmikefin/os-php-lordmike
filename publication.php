@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
     <title>Publications of Lord Mike</title>
   </head>
   <body>
-    <p>Publications of Lord Mike (a.k.a. Mikko Niemel�)</p>
+    <p>Publications of Lord Mike (a.k.a. Mikko Niemelä)</p>
     <p></p>
 	<p><a href="http://dx.doi.org/10.1364/OE.22.002324">Multiwavefront digital holographic television<br>
 	Optics Express, Vol. 22, Issue 3, pp. 2324-2336 (2014)</a></p>
