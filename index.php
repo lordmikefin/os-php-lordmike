@@ -14,6 +14,6 @@
 	<p><a href="mysql.php">mysql</a></p>
 	<p><a href="phpmyadmin/">phpmyadmin/</a></p>
 	<p><a href="publication.php">Publications</a></p>
-	<p><a href="fi.linkedin.com/pub/mikko-niemelä/98/19b/542">Linkedin profile</a></p>
+	<p><a href="https://www.linkedin.com/pub/mikko-niemel%C3%A4/98/19b/542">Linkedin profile</a></p>
   </body>
 </html>
