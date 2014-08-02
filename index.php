@@ -14,6 +14,13 @@
 	<p><a href="mysql.php">mysql</a></p>
 	<p><a href="phpmyadmin/">phpmyadmin/</a></p>
 	<p><a href="publication.php">Publications</a></p>
-	<p><a href="https://www.linkedin.com/pub/mikko-niemel%C3%A4/98/19b/542">Linkedin profile</a></p>
+	<p><a href="https://www.linkedin.com/pub/mikko-niemel%C3%A4/98/19b/542">Linkedin profile OLD link</a></p>
+	<p><a href="https://www.linkedin.com/in/lordmikefin">Linkedin profile</a></p>
+	
+	<p><a href="http://fi.linkedin.com/in/lordmikefin">
+      <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_myprofile_160x33.png" width="160" height="33" border="0" alt="View Mikko Niemelä's profile on LinkedIn">
+    </a></p>
+	
+	<p><img src="https://media.licdn.com/media/p/4/005/079/020/07450ec.jpg" width="200" height="200" border="0" alt="Mikko Niemelä's profile picture on LinkedIn"></p>
   </body>
 </html>
