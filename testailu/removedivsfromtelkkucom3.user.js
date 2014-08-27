@@ -246,3 +246,24 @@ for (i = 0; i < elem.length; i++) {
 
 
 
+// Remove theme page links
+elem = document.getElementsByTagName("nav");
+for (i = 0; i < elem.length; i++) {
+	if (elem[i]) {
+		el = elem[i];
+		if (el.className) {
+			classes = el.className;
+			strArray = classes.split(" ");
+			for (j = 0; j < strArray.length; j++) {
+				if (strArray[j] == "theme-navi") {
+					el.parentNode.removeChild(el);
+					//alert("class : " + elem.length);
+					i--;
+				}
+			}
+		}
+	}
+}
+
+
+
