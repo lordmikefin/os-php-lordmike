@@ -8,7 +8,7 @@
   <body>
     <p>Test site of Lord Mike (a.k.a. Mikko Niemelä)</p>
     <p>I'll try to up some content here :)</p>
-	<p><a href="mamba/">mamba/</a></p>
+	<p><a href="mamba/">Mamba - Free Bootstrap 3 one page template</a></p>
 	<p><a href="http://php-lordmike.rhcloud.com/">unprotected connection</a></p>
 	<p><a href="https://php-lordmike.rhcloud.com/">SSL protected connection</a></p>
 	<p><a href="https://#/">SSL protected connection</a></p>
