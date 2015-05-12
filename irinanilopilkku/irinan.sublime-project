@@ -1,0 +1,38 @@
+{
+	"folders":
+	[
+		{
+			"path": "./",
+
+			// These files will be excluded from the side bar and "Find in Files".
+			"file_exclude_patterns": 
+			[
+				"*.svg",
+				//"*.mo",
+				//"*.woff",
+				"*.bak",
+				"irinan.tmproj",
+				"irinan.sublime-workspace",
+				"irinan.sublime-project"
+			],
+
+			// These folders and files in them will be excluded from the side bar and "Find in Files".
+			"folder_exclude_patterns":
+			[
+				//"www/elmo/static/images",
+				//"www/elmo/static/fonts",
+				//"www/data"
+			],
+
+			// These files will still show up in the side bar, 
+			// but won't be included in "Find in Files".
+			// NOTE: binary_file_patterns setting does not work from here.
+			//       Can be only used from global settings file.
+			// http://sublimetext.userecho.com/topic/124477-binary_file_patterns-in-project-settings-doesnt-work/
+			"binary_file_patterns":
+			[
+				"*.svg"
+			]
+		}
+	]
+}
