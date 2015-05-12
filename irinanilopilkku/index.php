@@ -22,10 +22,10 @@
 			<div id="dl-menu" class="dl-menuwrapper">
 				<button class="dl-trigger">Open Menu</button>
 				<ul class="dl-menu">
-					<li>
-						<a href="#intro">Home</a>
-					</li>
-					<li><a href="#about">About</a></li>
+					<!-- <li><a href="#intro">Home</a></li> -->
+					<li><a href="#intro">Etusivu</a></li>
+					<!-- <li><a href="#about">About</a></li> -->
+					<li><a href="#about">Tietoa minusta</a></li>
 					<li><a href="#services">Services</a></li>
 					<li><a href="#works">Works</a></li>
 					<li><a href="#contact">Contact</a></li>
@@ -47,9 +47,10 @@
 					<div class="row">
 						<div class="col-md-12">
 							<div class="brand">
-								<h1><a href="index.html">Mamba</a></h1>
+								<h1><a href="index.html">Irinan Ilopilkku</a></h1>
 								<div class="line-spacer"></div>
-								<p><span>Awesome Bootstrap template</span></p>
+								<p><span>Yksityinen elinkeinonharjoittaja</span></p>
+								<p><span>Hieronta palvelu</span></p>
 							</div>
 						</div>
 					</div>
@@ -63,8 +64,9 @@
 				<div class="row">
 					<div class="col-md-offset-2 col-md-8">
 						<div class="section-heading">
-							<h2>About us</h2>
-							<p>We’ve been building unique digital products, platforms, and experiences for the past 6 years.</p>
+							<h2>Tietoa minusta</h2>
+							<!-- <p>We’ve been building unique digital products, platforms, and experiences for the past 6 years.</p> -->
+							<p>Tarjoamme hieronta palveluja.</p>
 						</div>
 					</div>
 				</div>
@@ -389,8 +391,8 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<p><a href="https://www.linkedin.com/in/lordmikefin">Page created by Mikko Niemelä ( <img alt="" border="0" src="./lordmike.svg"> )</a> Copyright &copy;2015 <a href="https://www.linkedin.com/in/lordmikefin">Mikko Niemelä</a></p>
-						<p>This page is using <a href="http://www.free-css.com/free-css-templates/page183/mamba#shout">Mamba Free CSS Template</a> Copyright &copy;2014 Mamba company. All rights reserved. By <a href="http://bootstraptaste.com">Bootstraptaste</a></p>
+						<p>Page created by <a href="https://www.linkedin.com/in/lordmikefin">Mikko Niemelä ( <img alt="" border="0" src="img/lordmike_white.svg"> ).</a> Copyright &copy;2015 <a href="https://www.linkedin.com/in/lordmikefin">Mikko Niemelä</a>. All rights reserved.</p>
+						<p>This page is using <a href="http://www.free-css.com/free-css-templates/page183/mamba#shout">Mamba Free CSS Template</a>. Copyright &copy;2014 Mamba company. All rights reserved. By <a href="http://bootstraptaste.com">Bootstraptaste</a></p>
 					</div>
 				</div>		
 			</div>	
