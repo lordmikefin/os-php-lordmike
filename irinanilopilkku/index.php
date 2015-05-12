@@ -4,6 +4,8 @@
 		<title>Irinan ilopilkku</title>
 		<meta charset="utf-8">
 		<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+		<!-- icon -->
+		<link rel="icon" href="img/icon_irina.png" type="image/x-icon" />
 		<!-- css -->
 		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 		<link href="css/style.css" rel="stylesheet" media="screen">
@@ -12,13 +14,13 @@
 		<script src="js/modernizr.custom.js"></script>
 	</head>
 	<body>
-					<!-- <li><a href="#intro">Home</a></li> -->
-					<!-- <li><a href="#about">About</a></li> -->
 		<div class="menu-area">
 			<div id="dl-menu" class="dl-menuwrapper">
 				<button class="dl-trigger">Open Menu</button>
 				<ul class="dl-menu">
+					<!-- <li><a href="#about">About</a></li> -->
 					<li><a href="#intro">Etusivu</a></li>
+					<!-- <li><a href="#intro">Home</a></li> -->
 					<li><a href="#about">Tietoa minusta</a></li>
 					<li><a href="#services">Services</a></li>
 					<li><a href="#works">Works</a></li>
